@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav style={styles.nav}>
-      <h2 style={styles.logo}>EduFolio</h2>
+      <h2 style={styles.logo}>Portfolio</h2>
       <div>
         <Link to="/" style={styles.link}>Home</Link>
         <Link to="/projects" style={styles.link}>Projects</Link>
